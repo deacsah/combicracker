@@ -1,5 +1,5 @@
 # combicracker
-A simple cracky python tool for brute-forcing hashes by testing all combinations of input strings against target hashes with different (hard-coded for now) seperators.
+A simple cracky python tool for cracking hashes by testing all combinations of input strings against target hashes with different (hard-coded for now) seperators.
 
 ```
 python combicracker.py -h                                                       
