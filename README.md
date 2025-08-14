@@ -12,16 +12,26 @@ Have a hash where the input is likely a combination of a few pieces of data? Thi
 # Usage
 
 ```
-python combicracker.py -h                                                       
 usage: combicracker.py [-h] --input-strings INPUT_STRINGS --hashes HASHES [--verbose]
+
+                    ___.  .___    
+  ____  ____   _____\_ |_ |__|   
+_/ ___\/  _ \ /    \| __ \|  |   
+\  \__(  <_> )  Y Y \ \_\ \  |   
+ \_____\____/|__|_|__\____/__|   
+  ________________   ____ |  | __
+_/ ___\_  __ \__  \_/ ___\|  |/ /
+\  \___|  | \// __ \  \___|    <er
+ \_____>__|  (______\_____|__|__\
+              v1.1
 
 Brute-force permutations of input strings to match given hashes (algo guessed from hash length).
 
 options:
   -h, --help            show this help message and exit
   --input-strings INPUT_STRINGS
-                        Path to file with possible input strings (one per line)
-  --hashes HASHES       Path to file with target hashes (one per line, lowercase hex)
-  --verbose             Display all attempts
-                                            
+                        Path to file with candidate input strings (one per line)
+  --hashes HASHES       Path to file with target hashes (one per line)
+  --verbose             Show each attempt with actual input + hash
+                                           
 ```
